@@ -261,3 +261,4 @@ jobify/
 ├── workflow-diagram.png           # Architecture diagram
 ├── .env                           # Shared environment variables
 └──
+<!-- Updated: Jan 2026 -->
