@@ -6,7 +6,7 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql)
 ![AI](https://img.shields.io/badge/AI-Embeddings-ff69b4)
 
-## 🔗Live link 👉  [https://talentmesh.bond](https://talentmesh.bond)
+## 🔗Live link 👉  
 
 **TalentMesh** is a **microservices-based AI-powered job portal platform** built with **Django**, **Django REST Framework**, **React (Vite)**, **PostgreSQL**, **Redis**, **Docker**, and **pgvector**.
 
