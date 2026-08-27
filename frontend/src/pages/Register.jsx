@@ -117,7 +117,7 @@ const Register = () => {
                      <HiLightningBolt className="w-4 h-4 text-white" />
                   </div>
                   <span className="text-white font-semibold text-base tracking-tight">
-                     Jobify
+                     TalentMesh
                   </span>
                </div>
 
@@ -132,7 +132,7 @@ const Register = () => {
                   </h1>
                   <p className="text-indigo-200 text-sm leading-relaxed max-w-xs">
                      Join thousands of job seekers and companies already
-                     building their future on Jobify.
+                     building their future on TalentMesh.
                   </p>
 
                   <div className="flex gap-3 mt-8">
@@ -163,7 +163,7 @@ const Register = () => {
                </div>
 
                <p className="text-indigo-300 text-xs relative z-10">
-                  © 2026 Jobify. All rights reserved.
+                  © 2026 TalentMesh. All rights reserved.
                </p>
             </div>
 
@@ -176,7 +176,7 @@ const Register = () => {
                         <HiLightningBolt className="w-3.5 h-3.5 text-white" />
                      </div>
                      <span className="text-sm font-semibold text-slate-800">
-                        WorkFolio
+                        TalentMesh
                      </span>
                   </div>
 

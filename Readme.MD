@@ -1,4 +1,4 @@
-# Jobify 👩🏻‍💻💼
+# TalentMesh 👩🏻‍💻💼
 
 ![Microservices](https://img.shields.io/badge/Architecture-Microservices-blue?logo=docker)
 ![Django](https://img.shields.io/badge/Backend-Django_&_DRF-092E20?logo=django)
@@ -6,11 +6,11 @@
 ![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-4169E1?logo=postgresql)
 ![AI](https://img.shields.io/badge/AI-Embeddings-ff69b4)
 
-## 🔗Live link 👉  [https://jobify.bond](https://jobify.bond)
+## 🔗Live link 👉  [https://talentmesh.bond](https://talentmesh.bond)
 
-**Jobify** is a **microservices-based AI-powered job portal platform** built with **Django**, **Django REST Framework**, **React (Vite)**, **PostgreSQL**, **Redis**, **Docker**, and **pgvector**.
+**TalentMesh** is a **microservices-based AI-powered job portal platform** built with **Django**, **Django REST Framework**, **React (Vite)**, **PostgreSQL**, **Redis**, **Docker**, and **pgvector**.
 
-Unlike a basic CRUD job portal, Jobify is designed as a **production-style backend architecture** with **independent microservices**, **isolated databases**, **AI-powered cover letter generation**, and **semantic job matching** using **embeddings + cosine similarity**.
+Unlike a basic CRUD job portal, TalentMesh is designed as a **production-style backend architecture** with **independent microservices**, **isolated databases**, **AI-powered cover letter generation**, and **semantic job matching** using **embeddings + cosine similarity**.
 
 A key architectural decision in this project is that the **AI Service does not act as the primary owner of job/company/auth data**. Instead, it **retrieves and processes data from other microservices** to perform AI-specific operations such as semantic matching and content generation. This keeps service boundaries cleaner and avoids turning the AI service into a duplicate CRUD backend.
 
@@ -18,7 +18,7 @@ A key architectural decision in this project is that the **AI Service does not a
 
 ## 📌 Project Overview
 
-Jobify is a full-stack job platform that demonstrates:
+TalentMesh is a full-stack job platform that demonstrates:
 
 - **True microservices architecture** (Auth, Company, Seeker, Chat, and AI)
 - **Independent databases per service**
@@ -221,8 +221,8 @@ Follow these instructions to get the application up and running on your local ma
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/sravan-kumar-ta/Jobify-microservices.git
-   cd "Jobify-microservices"
+   git clone https://github.com/sravan-kumar-ta/TalentMesh.git
+   cd "TalentMesh"
    ```
 
 2. **Environment Configuration**
@@ -249,7 +249,7 @@ Follow these instructions to get the application up and running on your local ma
 ## 📂 Project Structure
 
 ```bash
-jobify/
+talentmesh/
 │
 ├── auth-service/                  # Authentication microservice
 ├── company-service/               # Company / job management microservice

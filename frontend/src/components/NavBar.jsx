@@ -120,7 +120,7 @@ const NavBar = () => {
                      <HiLightningBolt className="w-3.5 h-3.5 text-white" />
                   </div>
                   <span className="text-sm font-semibold text-slate-800">
-                     Jobify
+                     TalentMesh
                   </span>
                </Link>
 
